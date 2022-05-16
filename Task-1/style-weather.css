@@ -1,0 +1,117 @@
+*{
+
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+.wrapper{
+    background-color: #3399CC;
+    border: solid 20px #2B81AC;
+    width: 100vw;
+    height: 100vh;
+}
+.page{
+    width: 50%;
+}
+.header{
+    height: 100px;
+    vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
+}
+.header__h1{
+    font-weight: normal;
+    font-size: 30px;
+}
+.main{
+    height: 100%;
+}
+i{
+    font-size: 35px;
+}
+.main__section{
+    list-style: none;
+    font-size: 0;
+    height: 600px;
+    border: solid white 3px;
+    border-collapse: collapse;
+}
+.main__section_cities{
+    border: solid 3px white;
+    border-collapse: collapse;
+    display: inline-block;
+    font-size: 20px;
+    height: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+.main__section_cities_span{
+    margin-top: 30px;
+    font-size: 25px;
+    display: inline-block;
+}
+.main__section_cities_span-a{
+    opacity: 60%;
+    font-size: 25px;
+}
+.main__section:hover .main__section_cities {
+    opacity: 10%;
+    transition: all .1s ease-in;
+}
+.main__section .main__section_cities:hover {
+    opacity: 60%;
+    transition: all .1s ease-in;
+}
+.lisbon{
+    width: 50%;
+}
+.paris{
+    width: 25%;
+    background-color: #33CCCC;
+}
+.belgrade{
+    width: 25%;
+    background-color: #996699;
+}
+.kyiv{
+    width: 25%;
+    background-color: #C24747;
+}
+.telaviv{
+    width: 25%;
+    background-color: #E2674A;
+}
+.cair{
+    width: 25%;
+    background-color: #FFCC66;
+}
+.newyork{
+    width: 25%;
+    background-color: #99CC99;
+}
+.newdelhi{
+    width: 25%;
+    background-color: #669999;
+}
+.sanfrancisco{
+    width: 50%;
+    background-color: #CC6699;
+}
+.tokyo{
+    width: 25%;
+    background-color: #339966;
+}
+.sydney{
+    width: 100%;
+    background-color: #666699;
+}
+.footer{
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.footer_p{
+    font-size: 20px;
+}
