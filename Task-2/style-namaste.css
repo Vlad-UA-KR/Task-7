@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100vh;
+    width: 100vw;
+    line-height: 1;
+    font-size: 16px;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    height: 100%;
+  }
+  
+
+/** header **/
+
+.header{
+    text-align: center;
+    margin: 0 auto;
+}
+.header__first-paragraph{
+        font-size: 12px;
+        font-family: Montserrat;
+        color: rgb(137, 143, 153);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 2.5;
+        padding-top: 143px;
+        letter-spacing: 4px;
+         
+}
+.header__h1{
+        font-size: 48px;
+        font-family: Montserrat;
+        color: rgb(14, 200, 203);
+        text-transform: uppercase;
+        line-height: 0.625;
+        padding-top: 36px;
+}
+.header__second-paragraph{
+        font-size: 18px;
+        font-family: PTSans;
+        color: rgb(153, 153, 153);
+        text-transform: uppercase;
+        line-height: 1.667;
+        padding-top: 45px; 
+        width: 480px;
+        margin: 0 auto;
+        word-wrap: initial;
+        text-align: center;
+}
+
+
+/** main **/
+
+.main{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 108px;
+}
+.main__about{
+    width: 25%;
+    height: 421px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__about_svg{
+    margin-top: 56px;
+    width: 66px;
+    height: 66px;
+}
+.main__about_h2{
+    margin-top: 43px;
+    font-size: 21px;
+    font-family: Montserrat;
+    color: rgb(27, 27, 27);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+.h2_diamond{
+    margin-top: 30px;
+}
+.main__about_p{
+    margin-top: 32px;
+    font-size: 14px;
+    font-family: PTSans;
+    color: rgb(119, 119, 119);
+    line-height: 1.571;
+    width: 174px;
+    height: 101px;
+    text-align: justify;
+}
+.main__about_svg{
+    fill-rule: evenodd;
+    fill:rgb(27, 27, 27);
+}
+.main__about:hover{
+    background-color: #00C9CC;
+    color: rgb(255, 255, 255);
+    transition: all .1s ease-in;
+}
+.main__about:hover .main__about_svg{
+   fill-rule:evenodd ; 
+   fill:rgb(255, 255, 255);
+   transition: all .1s ease-in;
+}
+.main__about:hover .main__about_h2{
+    color: rgb(255, 255, 255);
+    transition: all .1s ease-in;
+}
+.main__about:hover .main__about_p{
+    color: rgb(255, 255, 255);
+    transition: all .1s ease-in;
+}
