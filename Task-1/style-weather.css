@@ -53,15 +53,15 @@ i{
     display: inline-block;
 }
 .main__section_cities_span-a{
-    opacity: 60%;
+    opacity: 0.6;
     font-size: 25px;
 }
 .main__section:hover .main__section_cities {
-    opacity: 10%;
+    opacity: 0.25;
     transition: all .1s ease-in;
 }
-.main__section .main__section_cities:hover {
-    opacity: 60%;
+.main__section .main__section_cities:hover{
+    opacity: 1;
     transition: all .1s ease-in;
 }
 .lisbon{
